@@ -1,6 +1,6 @@
 let mobileMenu = document.querySelector(".header_nav");
 let burger = document.querySelector(".fa-bars");
-let xMark = document.querySelector(".fa-xmark");
+let xMark = document.querySelector(".fa-circle-xmark");
 
 burger.addEventListener("click", () => {
   mobileMenu.classList.add("show");

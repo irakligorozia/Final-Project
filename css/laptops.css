@@ -18,10 +18,27 @@
 @media (max-width: 1030px) {
   /* header  */
   .header_nav {
-    display: none;
+    position: fixed;
+    top: 98.4px;
+    left: -100%;
+    background: #05bcca;
+    padding: 16px 56px 16px 16px;
+    transition: 0.5s linear;
+  }
+  .header_ul {
+    flex-direction: column;
+  }
+  .header_li {
+    margin-bottom: 8px;
+  }
+  .header_a {
+    color: #c46a2b;
   }
   .fa-bars {
     display: block;
+  }
+  .show {
+    left: 0;
   }
   /* section_2  */
   .section_2 {
