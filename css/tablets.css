@@ -1,0 +1,139 @@
+@media (max-width: 800px) {
+  .section_1_contact {
+    justify-content: center;
+    padding: 48px 64px;
+    height: 735px;
+  }
+  .section_1_contact_div {
+    height: 735px;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (max-width: 730px) {
+  /* contact  */
+  .section_1_contact_div_title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .hide_contact_text {
+    display: none;
+  }
+  .section_1_contact_social {
+    column-gap: 24px;
+    justify-content: center;
+  }
+  .section_1_form_main_div {
+    flex-direction: column;
+  }
+  .section_1_contact_social_div_1 {
+    flex-direction: row;
+    column-gap: 24px;
+  }
+  .contact_form,
+  textarea,
+  .section_1_contact_map_div {
+    width: 295px;
+  }
+  .section_1_form_div_1 {
+    column-gap: 13px;
+  }
+  .section_1_contact_map_div {
+    margin: 0;
+  }
+  iframe {
+    width: 295px;
+  }
+  .contact_social_icons_div {
+    margin: 0;
+    justify-content: center;
+  }
+  .location_dot {
+    font-size: 24px;
+  }
+}
+@media (max-width: 750px) {
+  /* .section_2_catalog  */
+  .section_2_catalog {
+    padding: 48px 32px;
+  }
+  .hide_image_tablet {
+    display: none;
+  }
+}
+@media (max-width: 620px) {
+  /* .section_1_catalog */
+  .section_1_catalog {
+    padding: 16px 35px;
+  }
+  .section_1_catalog_butn {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px;
+  }
+}
+@media (max-width: 540px) {
+  /* .section_2_catalog */
+  .filter_title_hide {
+    display: none;
+  }
+  .section_2_sort_butn_text {
+    display: none;
+  }
+  .hide_image_mobile {
+    display: none;
+  }
+}
+@media (max-width: 530px) {
+  /* section_1  */
+  .section_1_div_home {
+    width: 267px;
+  }
+  .section_1_title {
+    font-size: 24px;
+    line-height: 32px;
+    margin-right: 16px;
+  }
+  /* section_2  */
+  .section_2 {
+    padding: 32px 8px;
+  }
+
+  /* section_4  */
+  .section_4 {
+    height: 168px;
+  }
+  .section_4_title {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 24px;
+  }
+  .section_4_input {
+    width: 201px;
+  }
+  /* footer  */
+  footer {
+    padding: 32px 0;
+  }
+  .footer_main_div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_middle_category {
+    margin: 40px 0;
+  }
+  .footer_ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_right_div {
+    margin-top: 48px;
+  }
+}
